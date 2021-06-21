@@ -12,5 +12,6 @@ if __name__ == '__main__':
         packages=find_packages(),
         install_requires=[
             'requests',
+            'dataclasses',  # For Python 3.6 backwards compatibility
         ],
     )
